@@ -11,8 +11,6 @@ local function error_hl()
 end
 
 function main.setup()
-	opt.list = true
-
 	local space = "·"
 	opt.listchars:append {
 		tab = "│─",
